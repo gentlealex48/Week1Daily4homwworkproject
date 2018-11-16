@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Week1Daily4homwworkproject</string>
+    <string name="UserProfile">UserProfile</string>
+    <string name="retrieveProfile">Retrieve Profile</string>
+    <string name="fullName">Full Name</string>
+    <string name="birthdate">Birth Date</string>
+    <string name="streetaddress">Street Address</string>
+    <string name="city_state_zip">City State Zip</string>
+</resources>

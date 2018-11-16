@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataEntryActivity">
+
+    <EditText
+        android:id="@+id/etFirstName"
+        android:inputType="text"
+        android:hint="first name"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/etLastName"
+        android:inputType="text"
+        android:hint="last name"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etBirthMonth"
+        android:inputType="number"
+        android:hint="birth month"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etBirthDay"
+        android:inputType="number"
+        android:hint="birth day"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etBirthYear"
+        android:inputType="number"
+        android:hint="birth year"
+        android:layout_toRightOf="@+id/etBirthDay"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etStreetNumber"
+        android:inputType="number"
+        android:hint="street number"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etStreetName"
+        android:inputType="text"
+        android:hint="street name"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etCity"
+        android:inputType="text"
+        android:hint="city"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etState"
+        android:inputType="text"
+        android:hint="state"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etZip"
+        android:inputType="text"
+        android:hint="zip"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        android:inputType="phone"
+        android:hint="phone_number"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClick"
+        android:text="ok" />
+
+</LinearLayout>
